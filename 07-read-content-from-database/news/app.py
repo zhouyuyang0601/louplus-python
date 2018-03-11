@@ -51,7 +51,7 @@ def insert_datas():
     db.session.add(file1)
     db.session.add(file2)
     db.session.commit()
-
+insert_datas()
 
 @app.route('/')
 def index():
